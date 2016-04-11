@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FreeCodeCamp File Metadata Microservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>FreeCodeCamp File Metadata Microservice</h1><br>
+        By Lior Chamla
+      </div>
+      <blockquote>
+          User stories:
+          <ol>
+            <li>I can submit a FormData object that includes a file upload.</li>
+            <li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+          </ol>
+      </blockquote>
+      <h3>Test it now !</h3>
+      <form enctype="multipart/form-data" action="/analyze/" method="post">
+        <input type="file" name="file" id="file"/>
+        <input type="submit" class="btn btn-primary" value="Get metadata"/>
+      </form>
+      <h3>Example output:</h3>
+      <code>
+          {
+            "size": 3550,
+            "name": "MyFile.jpg",
+            "mimetype": "image/jpeg"
+          }
+      </code>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+  </body>
+</html>

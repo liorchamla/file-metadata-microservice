@@ -1,0 +1,25 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "My implementation of the FCC Challenge for a Timestamp Microservice",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liorchamla/url-shortener.git"
+  },
+  "author": "Lior Chamla",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "multer": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liorchamla/url-shortener/issues"
+  },
+  "homepage": "https://github.com/liorchamla/url-shortener#readme"
+}
